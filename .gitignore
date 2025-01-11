@@ -1,0 +1,9 @@
+# Maven and Gradle build directories
+target/
+build/
+
+# IDE settings
+*.idea/
+*.vscode/
+*.classpath
+*.project
