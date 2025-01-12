@@ -1,15 +1,9 @@
-package com.firstspringproject.learn_spring_framework;
+package com.firstspringproject.learn_spring_framework.game;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.firstspringproject.learn_spring_framework.game.GameRunner;
-import com.firstspringproject.learn_spring_framework.game.GamingConsole;
-import com.firstspringproject.learn_spring_framework.game.MarioGame;
-import com.firstspringproject.learn_spring_framework.game.PacManGame;
-import com.firstspringproject.learn_spring_framework.game.SuperContraGame;
 
 @Configuration
 @ComponentScan("com.firstspringproject.learn_spring_framework.game")
