@@ -15,7 +15,7 @@ public class SimpleSpringContextLauncherApplication {
 
 		try(var context = new AnnotationConfigApplicationContext(SimpleSpringContextLauncherApplication.class)) {
 			
-			Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);;
+			Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 		}
 	}
 

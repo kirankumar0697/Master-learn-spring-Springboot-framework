@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
-public class BusinessCalculationService {
+//@Component
+@Service
+class BusinessCalculationService {
 	
 	@Autowired
 	DataService dataService;
